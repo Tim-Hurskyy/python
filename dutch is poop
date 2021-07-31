@@ -1,0 +1,8 @@
+def sc(f):
+    if f<2:return''
+    return 'mama i like to eat poop! '*(f - 1)+'Pa!' + ' poop!'*(f<7)
+
+floor = input('enter a poop floor you want to jump in! ')
+floor = int (floor)
+scream = sc(floor)
+print(scream)
